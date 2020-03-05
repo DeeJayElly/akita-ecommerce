@@ -24,7 +24,8 @@ export class CartPageComponent {
 
   checkout() {
     if(this.authQuery.isLoggedIn()) {
-      // checkout
+      this.cartService.removeAll();
+      alert('Checkout success');
     } else {
       this.router.navigateByUrl('login');
     }

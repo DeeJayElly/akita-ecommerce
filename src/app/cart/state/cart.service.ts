@@ -21,4 +21,8 @@ export class CartService {
   remove(productId: ID) {
     this.cartStore.remove(productId);
   }
+
+  removeAll() {
+    this.cartStore.remove();
+  }
 }

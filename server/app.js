@@ -31,7 +31,7 @@ function generateProducts() {
     return {
       id              : faker.random.uuid(),
       title           : faker.commerce.productName(),
-      image           : `https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image`,
+      image           : `https://imgplaceholder.com/420x320/ff7f7f/333333`,
       additionalData: {
         price           : faker.commerce.price(),
         department      : faker.commerce.department(),
