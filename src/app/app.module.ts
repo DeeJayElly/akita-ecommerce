@@ -20,7 +20,7 @@ import { ToastrModule } from 'ngx-toastr';
     HttpClientModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    environment.production ? [] : AkitaNgDevtools.forRoot({ shallow: false, sortAlphabetically: true }),
+    environment.production ? [] : AkitaNgDevtools.forRoot({ shallow: false }),
     ProductsModule,
     CartModule,
     AuthModule,
